@@ -1,4 +1,8 @@
 {
+  "type": "module",
+  "scripts": {
+    "pi:sdk": "node --experimental-strip-types sdk-runner.ts"
+  },
   "dependencies": {
     "@earendil-works/pi-coding-agent": "^1.5.0"
   }
