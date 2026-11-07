@@ -1,0 +1,32 @@
+.context-card {
+  width: min(100%, 960px);
+  padding: 16px 14px 18px;
+  border: 1px solid #3b3b3b;
+  border-radius: 16px;
+  background: #222;
+  color: #f4f4f4;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, .18);
+}
+
+.context-heading { display: flex; align-items: flex-start; justify-content: space-between; gap: 24px; }
+.context-heading h2 { margin: 0 0 6px; font-size: 15px; font-weight: 500; color: #d2d2d2; }
+.context-heading p, .context-heading span { margin: 0; color: #f2f2f2; font-size: 14px; }
+.context-heading span { padding-top: 8px; color: #bdbdbd; white-space: nowrap; }
+.context-bar { display: flex; width: 100%; height: 6px; margin: 12px 0 21px; overflow: hidden; border-radius: 999px; background: #454545; }
+.context-segment { display: block; min-width: 2px; height: 100%; }
+.context-segment-system { background: #a6a6a6; }
+.context-segment-tools { background: #8f7de4; }
+.context-segment-rules { background: #39a565; }
+.context-segment-skills { background: #eeb65f; }
+.context-segment-mcp { background: #ad8fab; }
+.context-segment-subagents { background: #78a8de; }
+.context-segment-conversation { background: #db7974; }
+.context-legend { display: grid; gap: 12px; }
+.context-row { display: flex; align-items: center; gap: 10px; font-size: 14px; }
+.context-row strong { margin-left: auto; color: #c7c7c7; font-weight: 400; }
+.context-swatch { width: 15px; height: 15px; border-radius: 3px; }
+
+@media (max-width: 600px) {
+  .context-heading { display: block; }
+  .context-heading span { display: block; padding-top: 10px; }
+}

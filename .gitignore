@@ -1,5 +1,51 @@
 node_modules
 
+# Local reference checkout
+/git-flight-rules/
+
+# Next.js and Cloudflare generated output
+/nextjs/node_modules/
+/nextjs/.next/
+/nextjs/.cloudflare/
+/nextjs/.vinext/
+/nextjs/dist/
+/nextjs/.wrangler/
+
+# Local environment and credentials
+.env
+.env.*
+!.env.example
+*.local
+.dev.vars
+.dev.vars.*
+**/.env
+**/.env.*
+**/.dev.vars
+**/.dev.vars.*
+**/auth.json
+**/credentials.json
+**/secrets.json
+**/.npmrc
+**/.netrc
+*.pem
+*.key
+*.crt
+*.cer
+*.p12
+*.pfx
+*.jks
+*.keystore
+*.sqlite
+*.sqlite3
+*.db
+*.secret
+*.token
+
+# Logs and OS/editor files
+*.log
+.DS_Store
+.vscode/
+
 AGENTS.md
 
 .pi/

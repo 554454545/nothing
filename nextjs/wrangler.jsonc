@@ -1,0 +1,13 @@
+{
+  "$schema": "./node_modules/wrangler/config-schema.json",
+  "name": "nextjs-mvp",
+  "compatibility_date": "2026-11-07",
+  "d1_databases": [
+    {
+      "binding": "nextjs_mvp_db",
+      "database_name": "nextjs-mvp-db",
+      "database_id": "8ca8d4a2-2a00-464e-b7ec-0a85e380a896",
+      "migrations_dir": "db/migrations"
+    }
+  ]
+}
