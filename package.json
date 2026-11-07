@@ -1,7 +1,11 @@
 {
   "type": "module",
   "scripts": {
-    "pi:sdk": "node --experimental-strip-types sdk-runner.ts"
+    "pi:sdk": "node --experimental-strip-types agent/sdk-runner.ts",
+    "pi:chat": "node --experimental-strip-types agent/chat-server.ts"
+    ,"pi:tunnel": "bash scripts/start-pi-tunnel.sh"
+    ,"pi:deploy": "bash scripts/deploy-with-pi-tunnel.sh"
+    ,"pi:public": "bash scripts/start-pi-public.sh"
   },
   "dependencies": {
     "@earendil-works/pi-coding-agent": "^1.5.0"

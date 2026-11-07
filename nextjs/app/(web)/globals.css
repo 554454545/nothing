@@ -11,3 +11,16 @@ body { font-family: system-ui, sans-serif; padding: 4rem; }
 .message-board h2 { margin: 0 0 12px; font-size: 15px; font-weight: 500; }
 .message-list { display: grid; gap: 8px; padding: 0; margin: 14px 0 0; list-style: none; }
 .message-list li { padding: 10px 12px; border-radius: 8px; background: #303030; }
+.chat-panel { width: min(100%, 960px); margin-top: 20px; padding: 16px; border: 1px solid #3b3b3b; border-radius: 16px; background: #222; color: #f4f4f4; }
+.chat-header { display: flex; align-items: center; gap: 12px; }
+.chat-header h2 { margin: 0; font-size: 15px; font-weight: 500; }
+.chat-header span { margin-left: auto; color: #aaa; font-size: 13px; }
+.chat-header select, .chat-form button { border: 1px solid #555; border-radius: 8px; padding: 8px 12px; background: #303030; color: #f4f4f4; cursor: pointer; }
+.chat-messages { display: grid; gap: 8px; min-height: 100px; margin: 14px 0; }
+.chat-messages > p { color: #888; }
+.chat-message { max-width: 85%; padding: 10px 12px; border-radius: 10px; white-space: pre-wrap; }
+.chat-message.user { justify-self: end; background: #25486b; }
+.chat-message.assistant { justify-self: start; background: #303030; }
+.chat-message time { display: block; margin-top: 6px; color: #9a9a9a; font-size: 11px; }
+.chat-form { display: flex; gap: 8px; }
+.chat-form input { flex: 1; min-width: 0; border: 1px solid #555; border-radius: 8px; padding: 10px 12px; background: #181818; color: white; }

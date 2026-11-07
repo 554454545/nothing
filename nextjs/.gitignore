@@ -5,3 +5,5 @@ out
 /dist/
 .vinext/
 .cloudflare/
+.pi/
+*.log

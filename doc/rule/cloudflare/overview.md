@@ -39,3 +39,12 @@ npm run deploy:vinext
 ## 免费方案边界
 
 当前只使用 Cloudflare Workers Free、D1 Free 和 `workers.dev` 子域名，不主动启用付费计划或付费服务。
+
+## 本地 Pi 测试 Tunnel
+
+- Pi SDK 保持在本地 Node.js 服务中运行，不部署到 Workers。
+- 测试公网访问时使用 Cloudflare Quick Tunnel 临时转发本地 Pi 服务。
+- 每次开机或重启后运行项目根目录的 `npm run pi:tunnel`。
+- 临时 Tunnel 地址可能变化，不能写死为长期配置。
+- Tunnel 终端、Pi 服务和网络必须持续运行。
+- 临时 Tunnel 只用于个人测试，不承载长期服务或真实敏感数据。

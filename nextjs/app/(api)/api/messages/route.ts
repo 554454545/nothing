@@ -1,4 +1,4 @@
-import { addMessage, listMessages } from "../../../src/lib/messages-store";
+import { addMessage, listMessages } from "../../../../lib/messages-store";
 
 async function getD1() {
   try {

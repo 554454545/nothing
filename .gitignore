@@ -10,6 +10,7 @@ node_modules
 /nextjs/.vinext/
 /nextjs/dist/
 /nextjs/.wrangler/
+/nextjs/.pi/
 
 # Local environment and credentials
 .env
@@ -43,9 +44,12 @@ node_modules
 
 # Logs and OS/editor files
 *.log
+.pi-chat.log
+.pi-tunnel.log
 .DS_Store
 .vscode/
 
 AGENTS.md
 
 .pi/
+/bin/

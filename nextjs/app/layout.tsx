@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import type { ReactNode } from "react";
-import "./globals.css";
+import "./(web)/globals.css";
 
 export const metadata: Metadata = { title: "Next.js Minimal", description: "Minimal Next.js runtime" };
 

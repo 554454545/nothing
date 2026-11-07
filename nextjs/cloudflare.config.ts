@@ -17,6 +17,7 @@ export default defineConfig({
         name: "nextjs-mvp-db",
         id: "8ca8d4a2-2a00-464e-b7ec-0a85e380a896",
       }),
+      PI_CHAT_URL: bindings.text(process.env.PI_CHAT_URL ?? ""),
     },
   }),
 });

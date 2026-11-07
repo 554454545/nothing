@@ -5,6 +5,7 @@
 ## 规则入口
 
 - [项目结构规则](./nextjs/structure.md)
+- 前端设计规范已随页面代码放在 `nextjs/app/(web)/design.md`。
 - [Cloudflare 与 D1 规则](./cloudflare/overview.md)
 - [项目规模演进记录](./architecture/scale.md)
 - [参考项目](./references/projects.md)
